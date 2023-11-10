@@ -1,0 +1,183 @@
+body {
+  background-color: black;
+  background-image: url(Jacko.jpg)
+}
+
+/*nav*/
+
+header {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.nav-content {
+  padding: 5px;
+}
+
+.nav-content li {
+  display: inline-block;
+  margin-left: 20px;
+  position: relative;
+  font-size: larger;
+}
+
+.dropdown-content {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  transition: all 0.1s;
+}
+
+.dropdown-content:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.dropdown-content:active {
+  color:orangered;
+  opacity: 1;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  background-color: black;
+  margin-top: 5%;
+  padding: 20%;
+  z-index: 1;
+  
+}
+
+.dropdown-options a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.85s;
+}
+
+.dropdown-options a:hover {
+  color: purple;
+
+}
+
+.nav-content li:hover .dropdown-options{
+  display: block;
+}
+
+.nav-content li:active .dropdwon-options {
+  display: block;
+}
+
+/*main*/
+
+main {
+  background-color: rgba(0, 0, 0,0.8 );
+  padding: 1% 5%;
+  margin: 5% 5%;
+}
+
+#title {
+  color: orange;
+  text-align: center;
+  font-size: 1000%;
+  font-family: serif;
+}
+
+.main_content {
+  color: white;
+  font-family:Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+  text-align: left;
+}
+
+#beginning-text {
+  font-size: 150%;
+}
+
+#Scary, #Romantic {
+  font-size: 400%;
+  color: orange;
+}
+
+.movie-title {
+  font-size: 200%;
+  font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif;
+  font-weight: bold;
+  
+}
+
+.movie {
+  color: white;
+  text-decoration: none;
+  transition: color 0.5s, text-decoration 0.6s;
+}
+
+.movie:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+iframe {
+  margin: 20px 0 10px 0;
+}
+
+.movie-description {
+  font-size: larger;
+}
+
+/* Bottom Navigation*/
+
+.bottom-nav {
+  text-align: center;
+}
+
+.bottom-nav a {
+  margin-left: 10px;
+}
+
+/* Snacks */
+
+.snack-section {
+  color: white;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-image: url(hallomoon.jpg)
+}
+
+#snack {
+  font-size: 400%;
+  color: red;
+}
+
+.snack-table {
+  width: 100%;
+  border: solid 1px white;
+}
+
+#spicy, #sweet {
+  font-size: 270%;
+  color: red;
+  text-align: left;
+}
+
+.snack-table td {
+  width: 50%;
+}
+
+.snack-table td p {
+  font-size: 150%;
+}
+
+.snack-table td img {
+  width:40%;
+}
+
+/*Foot of Page */
+
+footer {
+  border-top: solid white 1px;
+  color: white;
+  padding: 4%;
+  margin-top: 8%;
+  text-align: center;
+}

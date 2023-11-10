@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      #!$%@$%@$*&
+    </title>
+    <link rel="stylesheet" href="us.css">
+  </head>
+  <body>
+    <button id="ASong" onClick="playPause()">
+      <audio
+        src="us.wav"
+        autoplay
+        loop
+      ></audio>
+      Click to go Home
+    </button>
+    <img alt="Help please" src="us.jpg">
+    <script>
+      var aud = document.getElementById("ASong").children[0];
+      var isPlaying = false;
+      aud.pause();
+    
+      function playPause() {
+        if (isPlaying) {
+          aud.pause();
+        } else {
+          aud.play();
+        }
+        isPlaying = !isPlaying;
+      }
+    </script>
+  </body>
+</html>

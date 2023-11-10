@@ -1,0 +1,9 @@
+body {
+  background-color: black;
+  display: flex;
+}
+
+img {
+  width: 1622px;
+  height: 654px;
+}

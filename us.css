@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  
+}
+
+button {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  border: none;
+  Transition: opacity 0.15s;
+  position: absolute;
+  z-index: 1;
+  font-size: larger;
+  border: solid 1px white;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+button:active {
+  opacity: 0.3;
+}
+
+img {
+  
+  width: 1400px;
+}
